@@ -5,8 +5,8 @@ from skimage import data, img_as_float
 from skimage import io
 import os.path
 import time
-from skimage.restoration import (denoise_tv_chambolle, denoise_bilateral,
-                                 denoise_wavelet, estimate_sigma)
+from skimage.restoration import (denoise_tv_chambolle, denoise_bilateral, denoise_wavelet, estimate_sigma)
+
 curPath = os.path.abspath(os.path.curdir) 
 noisyDir = os.path.join(curPath,'noisy') 
 denoisedDir = os.path.join(curPath,'denoised')
